@@ -1,0 +1,18 @@
+package com.smhrd.myapp;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.smhrd.model.WebMember;
+
+//요청/응답(view 반환)
+@Controller
+public class MemberController {
+	
+	@PostMapping("/member/join")
+	public String join(@ModelAttribute WebMember member) {
+		
+	}
+
+}

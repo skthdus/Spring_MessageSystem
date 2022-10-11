@@ -1,0 +1,9 @@
+package com.smhrd.myapp;
+
+import org.springframework.stereotype.Controller;
+
+//컨트롤러 지정, Model 객체(데이터 저장) 만들기
+@Controller
+public class MainController {
+
+}

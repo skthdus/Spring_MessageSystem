@@ -1,0 +1,17 @@
+package com.smhrd.Model;
+
+public class Member {
+	private String id;
+	private String pw;
+	private String nick;
+	
+	public Member(String id, String pw, String nick) {
+		super();
+		this.id = id;
+		this.pw = pw;
+		this.nick = nick;
+	}
+	
+	
+
+}

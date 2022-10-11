@@ -1,0 +1,17 @@
+package com.smhrd.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+public class WebMember {
+	
+	@AllArgsConstructor
+	@Data
+	public class Member{
+		private String email;
+		private String pw;
+		private String tel;
+		private String address;
+	}
+
+}
