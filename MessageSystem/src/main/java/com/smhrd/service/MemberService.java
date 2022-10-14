@@ -16,7 +16,17 @@ public class MemberService {
 	MemberMapper memberMapper;
 	
 	//회원가입 service
-	public void  joinMember(WebMember member) {
+	public void joinMember(WebMember member) {
 		memberMapper.joinMember(member);
 	}
+	
+	//로그인 service
+	public WebMember loginMember() {
+		
+	}
 }
+
+
+
+
+

@@ -18,9 +18,24 @@ public class MemberController {
 	
 	@PostMapping("/member/join")
 	public String join(@ModelAttribute WebMember member, Model model) {
-		//model-> service로 전달
+		//model -> service로 전달
 		memberService.joinMember(member);
 		model.addAttribute("joinM", member);
 		return "joinSuccess";
 	}
+	
+	@PostMapping("/member/login")
+	public String login(@ModelAttribute WebMember member) {
+		memberService.loginMember(member);
+	}
 }
+
+
+
+
+
+
+
+
+
+

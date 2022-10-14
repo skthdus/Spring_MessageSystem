@@ -31,12 +31,12 @@
 								<td>Email</td>
 								<td>HP</td>
 								<td>Addr</td>							
-							</tr>
+							</tr>	
 							<tr>
-								<td>${joinM.email}</td>
-								<td>${joinM.tel}</td>
-								<td>${joinM.address}</td>
-							</tr>		
+								<td>${joinM.email }</td>
+								<td>${joinM.tel }</td>
+								<td>${joinM.address }</td>
+							</tr>	
 						</table>
 						<a href=""><input type="button" value="메인페이지로"></a>
 					</nav>			

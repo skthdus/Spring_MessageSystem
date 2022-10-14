@@ -21,7 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<!-- base-package 기준으로 클래스들을 스캔하여 빈(자바객체)으로 등록 -->
+	<!-- base-package 기주능로 클래스들을 스캔하여 빈(자바객체)으로 등록 -->
 	<context:component-scan base-package="com.smhrd" />
 	
 	

@@ -28,9 +28,9 @@
 					<nav id="menu">	
 						<ul class="links">
 							<li><h5>로그인</h5></li>
-								<form action="#">
-									<li><input type="text" placeholder="Email을 입력하세요"></li>
-									<li><input type="password" placeholder="PW를 입력하세요"></li>
+								<form action="/message/member/login" method="post">
+									<li><input type="text" name="email" placeholder="Email을 입력하세요"></li>
+									<li><input type="password" name="pw" placeholder="PW를 입력하세요"></li>
 									<li><input type="submit" value="LogIn" class="button fit"></li>
 								</form>
 						</ul>
@@ -38,7 +38,7 @@
 							<li><h5>회원가입</h5></li>
 								<form action="/message/member/join" method="post">
 									<li><input type="text" name="email" placeholder="Email을 입력하세요">
-									<li><input type="password" name="pw" placeholder="PW를 입력하세요"></li>
+									<li><input type="password"  name="pw" placeholder="PW를 입력하세요"></li>
 									<li><input type="text" name="tel" placeholder="전화번호를 입력하세요"></li>
 									<li><input type="text" name="address" placeholder="집주소를 입력하세요"></li>
 									<li><input type="submit" value="JoinUs" class="button fit"></li>

@@ -13,7 +13,7 @@
 		<property name="password" value="1234"/>	
 	</bean>
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
-			<constructor-arg ref="hikariConfig"/>
+		<constructor-arg ref="hikariConfig"/>
 	</bean>
 	
 	<!-- mybatis-spring API -->
@@ -23,3 +23,6 @@
 	
 	<mybatis-spring:scan base-package="com.smhrd.mapper" />
 </beans>
+
+
+
